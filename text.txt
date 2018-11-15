@@ -1,0 +1,81 @@
+Welcome....
+Thanks for Picking this app 
+if you want to learn & design WebSites or WebApps from strach then this app is best for you to learn.
+Topics
+
+ Basic Structure
+ This is the basic structure to start designing & building WebApss or WebSites Pages. Every Page we open in browser have this syntax.
+
+ <!DOCTYPE html>
+   <html>
+     <head>
+        <title>  </title>
+     </head>
+     <body>
+    
+     </body>
+  </html>
+
+ To run this on you Oprating system by saving exact format with filename.html & open with any web browser
+
+ <!DOCTYPE html>  This is stand for the version of html.there are many update version of html.this is used to so you  dont have to change its version on every new update. [!DOCTYPE HTML] automatic change according to updated versions.
+ <html></html>  Web browser can open every kind of file so tell the browser & to arrange the syntax of html file this tag is needed.
+ <head> </head>   The content in the head tags not shown in the browsers. This is used to store information about BackEnd, links or others purposes.
+ <title>   </title>  Title is used to name of the page & this name is shown on the top of Web Browser Tabs.
+ <body></body> Every thing we see on web browser is placed in this tag eg. images, tables, graph, heading etc.
+
+HTML Introduction
+ HTML is HyperText Markup Language.It is just language of web pages. it has tags, element tags,opening tags, closing tags.
+
+HTML Editors
+ * Notepad
+ * Notepad++
+ * Atom
+ * Visual studio code
+ * Sublime 
+ * Brackets
+ Any text editor will be good.
+
+HTML Elements
+ Mashup elements
+  Mashup element contains content in them & These kind of element tag need a closing tag
+   <tagname>  content comes in here... </tagname>
+     <tagname>    this is opening tag 
+     </tagname>   this is closing tag
+   We always has to close a tag which contains content in them.
+   Examples
+     <div>     content comes in here...     </div>
+     <table>   content comes in here...    </table>
+     <a href="#">  content comes in here... </a>
+ Empty Elements
+  Empty Elements are those which do not need a closing tag.
+   <br>
+   <hr>
+  When you go to other language like react or react-native-app in future,then you need to close these tags.(<br />, <hr />)
+
+HTML Attributes 
+ Attributes Are used to define or change the type , text , method, color of content or link to other things.
+ Examples
+ <a href="#">  href is a attribute
+ <div id="name" > id is a attribute
+ There are so many kind of attributes we will cover in next chapters.
+
+HTML Comments
+ Comment is used to know the content or
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+  
