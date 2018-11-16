@@ -51,20 +51,30 @@ HTML Elements
   Empty Elements are those which do not need a closing tag.
    <br>
    <hr>
+   <img>
   When you go to other language like react or react-native-app in future,then you need to close these tags.(<br />, <hr />)
 
 HTML Attributes 
- Attributes Are used to define or change the type , text , method, color of content or link to other things.
- Examples
+ Attributes Are used to define or change the type , class, method, style of content or link to other things.
+ Example:
  <a href="#">  href is a attribute
  <div id="name" > id is a attribute
+ <p class"text"> class is a attribute
  There are so many kind of attributes we will cover in next chapters.
 
 HTML Paragraphs
  Paragraph is best way to show big text content on web pages. 
-<p>      content comes in here….  </p>    <p> tag is used to make paragraph like in newspapers.
-<br>   This Tag is used give space between two different lines & start a new line from bottom start. Because HTML treat every element tag as inline.  
-<pre>  </pre> This tag show the exact syntax in which we wrote text in notepad  
+  <p>      content comes in here….  </p>    <p> tag is used to make paragraph like in newspapers.
+  <br>   This Tag is used give space between two different lines & start a new line from bottom start. Because HTML treat every element tag as inline.  
+  <pre>  </pre> This tag show the exact syntax in which we wrote text in notepad  
+Examples:
+<p>hello friends,,...this is paragrap.</p>
+<p>hello friends,,...   <br>    this is paragraph.</p>
+<pre> 
+hello friends,,... 
+  this is paragraph.
+           Thank You
+</pre>
 
 
 HTML Headers
@@ -78,7 +88,15 @@ Headers are used to give headings or title to paragraph. Font weight of header i
 
 The size of <h1> is greater in size & getting small till <h6>
 
-
+HTML Escape Characters
+  html have its own syntax & language there for we cant use some character directly.
+ Examples:
+ space      &nbsp;
+ &          &amp
+ <          &lt
+ >          &gt
+ ?          &
+ For space between two text we have to use &nbsp. because html treat multiple space as single space.There are many character you will find online according to use.
 
 HTML Comments
  Comment is used to know the content or discribe the content present in body. comment is not shown in the web browser.
@@ -111,10 +129,42 @@ HTML Links
   <a href="www.google.com"> GOOGLE </a> 
   <a href="www.mywebsite.com"> WEBSITE </a>
 
+HTML Table
+         <table>
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+ <table> is used to create a table. <tr> create a row(horizontal).<td> create a column(vertical)
+Example: 
+    <table>
+            <tr>
+                <td>Planets</td>
+                <td>Continents</td>
+                <td>Countries</td>
+            </tr>
+            <tr>
+                <td>Earth</td>
+                <td>Europe</td>
+                <td>France</td>
+            </tr>
+            <tr>
+                <td>Mars</td>
+                <td>Asia</td>
+                <td>China</td>
+            </tr>
+        </table>      
+
 HTML Images
  <img> tag is used to add images to webpages this es an empty element tag which don't have closing tag.
  <img src="#">
- example:
+ Example:
+ <img src="nature.jpg">
+ <img src="nature.jpg" width="300px" height="auto" title="Nature_Image">
+ <img src="natue.jpg" width="300px" height="auto" title="Nature_Image" alt="Nature_Image">
+ 
+  nature.jpg should be in same folder. width and height is used to display size according to need. title displays the title of the image when we hover over the image in tooltip. alt is alternative which is shown when image does not find, then alt name takes its place.
+
 
 
 
