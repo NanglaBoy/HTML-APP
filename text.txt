@@ -198,7 +198,17 @@ HTML Text Formatting
  
  Examples:
 
-HTML 
+HTML Form
+ <form action="" method="" > </form>
+ A webform, web form or HTML form on a web page allows a user to enter data that is sent to a server for processing. In input 
+
+HTML Form Inputs
+ For Making controls or Text input there is input tag. which have attribute to change its type. This tag is empty element tag.
+ <input type='text'>
+ <input type='email'>
+ <input type='password'>
+ <input type='date'>
+ <input type='submit' value="button_name"
  
 
 
