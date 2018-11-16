@@ -60,30 +60,12 @@ HTML Attributes
  <div id="name" > id is a attribute
  There are so many kind of attributes we will cover in next chapters.
 
-HTML Comments
- Comment is used to know the content or discribe the content present in body.
-
-
-HTML List
- There are two types of list. 
-Unordered List
-<ul>
-   <li>  </li>
-   <li>  </li>
-    <li>  </li>
-</ul>
-Ordered List
-<ol>
-   <li>  </li>
-   <li>  </li>
-    <li>  </li>
-</ol>
-
 HTML Paragraphs
  Paragraph is best way to show big text content on web pages. 
-<p>      content comes in here….  </p>
-<br>   This Tag is used give space between two different lines. Because HTML treat every element tag as inline 
-<pre>  </pre>
+<p>      content comes in here….  </p>    <p> tag is used to make paragraph like in newspapers.
+<br>   This Tag is used give space between two different lines & start a new line from bottom start. Because HTML treat every element tag as inline.  
+<pre>  </pre> This tag show the exact syntax in which we wrote text in notepad  
+
 
 HTML Headers
 Headers are used to give headings or title to paragraph. Font weight of header is greater then the font of default text on page. 
@@ -96,11 +78,43 @@ Headers are used to give headings or title to paragraph. Font weight of header i
 
 The size of <h1> is greater in size & getting small till <h6>
 
+
+
+HTML Comments
+ Comment is used to know the content or discribe the content present in body. comment is not shown in the web browser.
+<!--   content comes in here  -->   syntax to add a comment
+
+
+HTML List
+ There are two types of list. 
+Unordered List
+ In these tag bullets are shown in front of list. Design of bullets can be change in css.
+<ul>
+   <li>  </li>
+   <li>  </li>
+   <li>  </li>
+</ul>
+Ordered List
+ In these tag numbering is shown in front of list.Design of numbering can be change in css.
+<ol>
+   <li>  </li>
+   <li>  </li>
+   <li>  </li>
+</ol>
+
+
 HTML Links
  How to add a link to your web pages. 
  <a href="..http address.."> link_name </a>
- 
+ <a> is called anchor tag.
+ example:
+  <a href="www.google.com"> GOOGLE </a> 
+  <a href="www.mywebsite.com"> WEBSITE </a>
 
+HTML Images
+ <img> tag is used to add images to webpages this es an empty element tag which don't have closing tag.
+ <img src="#">
+ example:
 
 
 
