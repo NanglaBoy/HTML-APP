@@ -1,0 +1,16 @@
+.inline{
+    display : inline-block;
+}
+.content{
+    background-color: rgb(171, 253, 253);
+}
+.content a{
+    font-size: 1.2rem;
+    padding: 0 10px;
+}
+tr td{
+    padding: 1px 5px;
+}
+h1,h2,h3,h4,h5,h6{
+    padding : 0 5px;
+}

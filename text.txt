@@ -61,7 +61,7 @@ HTML Attributes
  There are so many kind of attributes we will cover in next chapters.
 
 HTML Comments
- Comment is used to know the content or discribe the content present in body
+ Comment is used to know the content or discribe the content present in body.
 
 
 HTML List
