@@ -61,8 +61,43 @@ HTML Attributes
  There are so many kind of attributes we will cover in next chapters.
 
 HTML Comments
- Comment is used to know the content or
+ Comment is used to know the content or discribe the content present in body
 
+
+HTML List
+ There are two types of list. 
+Unordered List
+<ul>
+   <li>  </li>
+   <li>  </li>
+    <li>  </li>
+</ul>
+Ordered List
+<ol>
+   <li>  </li>
+   <li>  </li>
+    <li>  </li>
+</ol>
+
+HTML Paragraphs
+ Paragraph is best way to show big text content on web pages. 
+<p>      content comes in here….  </p>
+<br>   This Tag is used give space between two different lines. Because HTML treat every element tag as inline 
+<pre>  </pre>
+
+HTML Headers
+Headers are used to give headings or title to paragraph. Font weight of header is greater then the font of default text on page. 
+ <h1> header 1 </h1>
+<h2> header 2 </h2>
+<h3> header 3 </h3>
+<h4> header 4 </h4>
+<h5> header 5 </h5>
+<h6> header 6 </h6>
+
+The size of <h1> is greater in size & getting small till <h6>
+
+HTML Links
+ How to add a link to your web pages. 
 
 
 
