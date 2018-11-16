@@ -98,7 +98,8 @@ The size of <h1> is greater in size & getting small till <h6>
 
 HTML Links
  How to add a link to your web pages. 
-
+ <a href="..http address.."> link_name </a>
+ 
 
 
 
