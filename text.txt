@@ -200,15 +200,21 @@ HTML Text Formatting
 
 HTML Form
  <form action="" method="" > </form>
- A webform, web form or HTML form on a web page allows a user to enter data that is sent to a server for processing. In input 
+ A webform, web form or HTML form on a web page allows a user to enter data that is sent to a server for processing. In Form there are text field, checkbox, dropbox, radio buttons etc. action & method are the attribute used by the backend or server side coding which deal with the submited data.These are main part of javaScript anf other backend coding.
+
+ action can be anything happens on click to deal with data.
+
+ Types of method are "put", "post","get","delete" and there are other kind of methods according to use.
+
 
 HTML Form Inputs
+
  For Making controls or Text input there is input tag. which have attribute to change its type. This tag is empty element tag.
  <input type='text'>
  <input type='email'>
  <input type='password'>
  <input type='date'>
- <input type='submit' value="button_name"
+ <input type='submit' value="button_name">
  
 
 
