@@ -12,8 +12,11 @@ body{
     padding: 0 10px;
 }
 tr td{
-    padding: 1px 5px;
+    padding: 1px 10px;
 }
 h1,h2,h3,h4,h5,h6{
     padding : 0 5px;
+}
+img{
+    padding: 0 10px;
 }
