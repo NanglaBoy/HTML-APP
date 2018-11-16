@@ -25,7 +25,7 @@ Topics
  <body></body> Every thing we see on web browser is placed in this tag eg. images, tables, graph, heading etc.
 
 HTML Introduction
- HTML is HyperText Markup Language.It is just language of web pages. it has tags, element tags,opening tags, closing tags.
+ HTML is HyperText Markup Language.It is just language of web pages. it has tags, element tags,opening tags, closing tags.Browsers do not display the HTML tags, but use them to render the content of the page.
 
 HTML Editors
  * Notepad
@@ -91,12 +91,17 @@ The size of <h1> is greater in size & getting small till <h6>
 HTML Escape Characters
   html have its own syntax & language there for we cant use some character directly.
  Examples:
- space      &nbsp;
+ [space]    &nbsp;
  &          &amp
  <          &lt
  >          &gt
- ?          &
+ ?          &#63
+ "          &quot
+ '          &apos
+ ©          &copy
+
  For space between two text we have to use &nbsp. because html treat multiple space as single space.There are many character you will find online according to use.
+
 
 HTML Comments
  Comment is used to know the content or discribe the content present in body. comment is not shown in the web browser.
@@ -165,10 +170,35 @@ HTML Images
  
   nature.jpg should be in same folder. width and height is used to display size according to need. title displays the title of the image when we hover over the image in tooltip. alt is alternative which is shown when image does not find, then alt name takes its place.
 
+HTML Audio & Videos
 
 
 
 
+
+HTML Style
+ HTML have its own tag attribute to defining text with a special meaning. For styling to html content there is another language which is CSS(cascading Style Sheets). we can still style html content with help of style attribute.
+ <tag_name style="property:values">
+ property and values are you going to learn in css.
+ Examples:
+ 
+
+HTML Text Formatting
+
+ <b> - Bold text
+ <strong> - Important text
+ <i> - Italic text
+ <em> - Emphasized text
+ <small> - Small text
+ <del> - Deleted text
+ <ins> - Inserted text
+ <mark> - Marked text
+ <sub> - Subscript text
+ <sup> - Superscript text
+ 
+ Examples:
+
+HTML 
  
 
 
