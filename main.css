@@ -5,11 +5,14 @@ body{
     display : inline-block;
 }
 .content{
-    background-color: rgb(171, 253, 253);
+
+    margin: 0;
+    padding: 0 ;
 }
 .content a{
     font-size: 1.2rem;
     padding: 0 10px;
+    
 }
 tr td{
     padding: 1px 10px;
@@ -19,4 +22,13 @@ h1,h2,h3,h4,h5,h6{
 }
 img{
     padding: 0 10px;
+    
+}
+input{
+    margin: 5px;
+    padding: 5px;
+}
+.text{
+    font-weight: 120;
+    padding: 3px 5px;
 }

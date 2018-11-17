@@ -64,7 +64,7 @@ HTML Attributes
 
 HTML Paragraphs
  Paragraph is best way to show big text content on web pages. 
-  <p>      content comes in here….  </p>    <p> tag is used to make paragraph like in newspapers.
+  <p>      content comes in hereï¿½.  </p>    <p> tag is used to make paragraph like in newspapers.
   <br>   This Tag is used give space between two different lines & start a new line from bottom start. Because HTML treat every element tag as inline.  
   <pre>  </pre> This tag show the exact syntax in which we wrote text in notepad  
 Examples:
@@ -98,7 +98,7 @@ HTML Escape Characters
  ?          &#63
  "          &quot
  '          &apos
- ©          &copy
+ ï¿½          &copy
 
  For space between two text we have to use &nbsp. because html treat multiple space as single space.There are many character you will find online according to use.
 
@@ -172,8 +172,19 @@ HTML Images
 
 HTML Audio & Videos
 
+<Audio>
+this can play any kind of file according support in your web browsers like .mp3, .wave,.ogg etc.
+we can change controls to autoplay or to autoplay loop.this attribute help to play automatic the audio. we can use this too in videos.
+
+<audio controls src="audio.mp3"> </audio>
+Examples:
 
 
+<Videos> 
+it is help full web you want advertise something on WebSites.
+
+<video src="video.mp4" controls width="200px" height="auto"></video>
+Examples:
 
 
 HTML Style
@@ -202,7 +213,7 @@ HTML Form
  <form action="" method="" > </form>
  A webform, web form or HTML form on a web page allows a user to enter data that is sent to a server for processing. In Form there are text field, checkbox, dropbox, radio buttons etc. action & method are the attribute used by the backend or server side coding which deal with the submited data.These are main part of javaScript anf other backend coding.
 
- action can be anything happens on click to deal with data.
+ action is used to tell the server which should be render on sumbit that form.
 
  Types of method are "put", "post","get","delete" and there are other kind of methods according to use.
 
@@ -210,11 +221,14 @@ HTML Form
 HTML Form Inputs
 
  For Making controls or Text input there is input tag. which have attribute to change its type. This tag is empty element tag.
- <input type='text'>
- <input type='email'>
- <input type='password'>
- <input type='date'>
- <input type='submit' value="button_name">
+ <input type='text'>       In this we can type anything.
+ <input type='email'>     In this @ is Important to add.
+ <input type='password'>   its shows bullets on typing anything.
+ <input type='number'>      it only allows to enter numbers. we can add 'min="2"' & 'max="500"';
+ <input type='date'>       it show a calender to add a date.
+ <input type='submit' value="button_name">   it used to create a button. where value is a name of the button.
+ 
+ Examples:
  
 
 
