@@ -1,9 +1,15 @@
-Welcome....
+﻿Welcome....
 Thanks for Picking this app 
 if you want to learn & design WebSites or WebApps from strach then this app is best for you to learn.
 Topics
 
+HTML Introduction
+
+ HTML is HyperText Markup Language.It is just language of web pages. it has tags, element tags,opening tags, closing tags.Browsers do not display the HTML tags, but use them to render the content of the page.HTML allows images and objects to be embedded
+and can be used to create interactive forms.HTML is highly flexible and supported on all browsers.
+
  Basic Structure
+
  This is the basic structure to start designing & building WebApss or WebSites Pages. Every Page we open in browser have this syntax.
 
  <!DOCTYPE html>
@@ -23,9 +29,6 @@ Topics
  <head> </head>   The content in the head tags not shown in the browsers. This is used to store information about BackEnd, links or others purposes.
  <title>   </title>  Title is used to name of the page & this name is shown on the top of Web Browser Tabs.
  <body></body> Every thing we see on web browser is placed in this tag eg. images, tables, graph, heading etc.
-
-HTML Introduction
- HTML is HyperText Markup Language.It is just language of web pages. it has tags, element tags,opening tags, closing tags.Browsers do not display the HTML tags, but use them to render the content of the page.
 
 HTML Editors
  * Notepad
@@ -208,6 +211,16 @@ HTML Text Formatting
  <sup> - Superscript text
  
  Examples:
+
+HTML Head
+ 
+
+
+
+
+
+
+
 
 HTML Form
  <form action="" method="" > </form>
